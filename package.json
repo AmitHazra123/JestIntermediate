@@ -1,0 +1,20 @@
+{
+  "name": "nodejstestingskills2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "author": "Amit Hazra",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.12.3",
+    "node-fetch": "^2.6.1",
+    "q": "^1.5.1"
+  }
+}
